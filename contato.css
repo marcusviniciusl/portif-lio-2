@@ -1,0 +1,153 @@
+<DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contato.css" type="text/css">
+    <title>Daniel V. Estácio</title>
+</head>
+<body>
+    <main>
+        <section class="corpo">
+            <div class="conteudo">
+                <h1 class="titulo-principal"><a href="index.html">Daniel V. Estácio</a></h1>
+            <br>
+                <font size="5"> Para voltar: Click no titulo acima</font>       
+            <br>
+            <nav class="inicio">
+                <a id="contato" href="contato.html"></a>
+                <h2 id="contato-frase">Contato do Professor</h2>
+                <br>
+            
+            </div>
+            <div class="imagem">
+                <img src="foto4.png">
+            </div>
+            
+                <div class="texto">
+                    <font size="6">
+                        <a href="https://github.com/Danielestacio" rel="external" target="_blank">Github do Professor</a>
+                        <br>
+                        <br>
+                        <a href="https://mail.google.com/mail/u/0/?fs=1&to=daniel.estacio@escola.pr.gov.br&tf=cm" rel="external" target="_blank">Email do Professor</a>
+                        <br>
+                        <br>
+                        <a href="https://www.facebook.com/danielestacio.estacio" rel="external" target="_blank">facebook do Professor</a>
+                    </font>                        
+                </div>     
+                <h3 class="contato-lista"> 
+                
+        </section>
+        <footer>
+
+        </footer>
+
+    </main>                    
+      
+    
+</body>
+</html>body{
+    background-color: #d3f4a1;
+  }
+
+.corpo {
+    width: 960px;
+    margin: auto;
+}
+
+.conteudo {
+    display: table;
+    width: 800px;
+}
+
+.imagem {
+    display: table-cell;
+    float: left;
+}  
+
+.texto {
+    display: table-cell;
+    float: left;
+    width: 400px;
+    margin-top: 90px; 
+    margin-left: 140px;
+}
+
+.titulo-principal {
+    background-color: rgb(193, 202, 8);
+    color: rgb(35, 4, 127);
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 15px 10px rgb(37, 4, 249);
+  }
+
+  .contato-lista{
+    background-color: rgb(215, 243, 6);
+    color: rgb(251, 255, 9);
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 160px;
+    border-radius: 600px;
+    box-shadow: 10px 5px rgb(37, 4, 249);
+  }
+
+  *{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+h1{
+    color: rgb(20, 1, 1);
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+
+h4{
+    color: rgba(245, 6, 6, 0.8);
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+h3{
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+img {
+    max-width: 700px;
+  width: 700px;
+  background-color: green;
+  color: rgb(244, 8, 8);
+  max-width: 280px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  border-radius: 50px;
+  box-shadow: 20px 15px rgb(250, 250, 250); 
+    
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #830505;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
